@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blue Audio</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <meta name="description" content="Blue Audio is an Online Dubstep Music Player">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var user = prompt("What's the password");
+            if (user == "music") {
+                alert("Nice!");
+                $('#loader').fadeOut(500);
+            }
+        });
+    </script>
+</head>
+
+<body style="background-color: #528AC9">
+    <div id="loader">
+        <div id="loader-img"><img id="img" width="200px" src="bluelogo.png" /></div>
+    </div>
+    <a href="index.html"> <img id="honey" src="Cool%20Text%20-%20Blue%20Audio%20192269267408260.png" /> </a> <img class="Easy" src="Cool%20Text%20-%20Play%20Your%20Favorite%20Songs%20192524286673105.png" />
+    <table>
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="about.html">About The Creator</a></td>
+            <td><a href="music.html">Music</a></td>
+        </tr>
+    </table>
+    <p id="burritos">Welcome to Blue Audio! Play your Favorite Songs from Your Favorite Dubstep Artists!</p>
+    <p id="blue"><em>Blue Audio is a music player that can play a variety of Dubstep songs that you may or may not like!</em></p>
+</body>
+
+</html>
