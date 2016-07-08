@@ -4,8 +4,19 @@
 <title>Blue Audio
     </title>
     <link type="text/css" rel="stylesheet" href="styles.css">
-    
+    <script>
+    var userInput = prompt("This song contains strong language! You need to be at least over 13 to listen to this song. Enter your age here!")
+    var myAge = 13;
+    if (userInput > myAge) {
+        confirm("You are old enough to listen to this song!");
+    }
+        else  {
+            confirm("You are not old enough to listen to this song!");
+            window.location.replace("album3.html");
+        }
+    </script>
     </head>
+    
     <body style="background-color: #528AC9;">
         
         <!-- Nav -->
